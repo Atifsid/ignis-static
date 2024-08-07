@@ -12,41 +12,54 @@
         href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
         rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-    <!-- navbar section -->
-    <section class="navbar">
-        <div class="logo" onclick="location.href='index.html'">
-            <img src="./assets/logo.svg" alt="Ignis Electrical">
-            <a>Ignis Electrical</a>
-        </div>
-        <span><i class="ri-menu-line"></i></span>
-        <div class="nav-links">
-            <a>Home</a>
-            <a>Features</a>
-            <a>About Us</a>
-            <a>Contact Us</a>
-        </div>
-    </section>
+    <div class="root">
+        <!-- navbar section -->
+        <section class="navbar">
+            <div class="logo" onclick="location.href='index.html'">
+                <img src="./assets/logo.svg" alt="Ignis Electrical">
+                <a>Ignis Electrical</a>
+            </div>
+            <span><i class="ri-menu-line menu"></i></span>
+            <div class="nav-links">
+                <a>Home</a>
+                <a>Features</a>
+                <a>About Us</a>
+                <a>Contact Us</a>
+            </div>
+        </section>
+        <section id="navbar-full">
+            <h4>Home</h4>
+            <h4>Features</h4>
+            <h4>About Us</h4>
+            <h4>Contact Us</h4>
 
-    <!-- hero section -->
-    <section class="hero">
-        <div class="hero-content">
-            <h1 class="hero-title">
-                Crafting Fire Prevention Solutions
-            </h1>
-            <h2 class="hero-subtitle">
-                Your Safety Is Our Sole Focus.
-            </h2>
-            <button type="button" class="hero-button">
-                <span>Enquiry Request</span>
-                <i class="ri-arrow-right-double-fill"></i>
-            </button>
-        </div>
+            <i class="ri-close-circle-fill"></i>
+        </section>
 
-    </section>
+        <!-- hero section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Crafting Fire Prevention Solutions
+                </h1>
+                <h2 class="hero-subtitle">
+                    Your Safety Is Our Sole Focus.
+                </h2>
+                <button type="button" class="hero-button">
+                    <span>Enquiry Request</span>
+                    <i class="ri-arrow-right-double-fill"></i>
+                </button>
+            </div>
+
+        </section>
+    </div>
     <script src="./script.js"></script>
 </body>
 

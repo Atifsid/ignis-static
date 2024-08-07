@@ -40,11 +40,57 @@
 }
 
 @media only screen and (max-width: 750px) {
-    div.nav-links {
+
+    div.nav-links,
+    section.navbar span,
+    #navbar-full {
         display: none;
     }
 
     section.navbar span {
         display: block;
     }
+
+    #navbar-full {
+        display: none;
+    }
+}
+
+#navbar-full {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: -100%;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.932);
+    backdrop-filter: blur(20px);
+    padding: 150px 50px;
+}
+
+#navbar-full h4 {
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+
+#navbar-full i {
+    position: absolute;
+    top: 3%;
+    right: 7%;
+    font-weight: 800;
+    font-size: 26px;
+}
+
+#menu-btn {
+    border: none;
+    padding: 12px;
+    background-color: white;
+}
+
+#menu-btn i {
+    color: black;
+    font-size: 18px;
+    font-weight: 800;
 }
