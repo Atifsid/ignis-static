@@ -30,8 +30,13 @@
   list-style-type: none;
 }
 
-.contact a {
+.contact ul li a {
   text-decoration: none;
+  color: black;
+}
+
+.contact ul li a:hover {
+  text-decoration: underline;
 }
 
 #logo-footer {
