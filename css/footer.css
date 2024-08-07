@@ -1,0 +1,39 @@
+footer {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    padding: 2vw 6vw;
+}
+
+.contact img {
+    height: 150px;
+    width: 150px
+}
+
+.contact-details {
+    display: table;
+}
+
+.contact ul {
+    list-style-type: none;
+    gap: 10px;
+}
+
+.contact ul li {
+    padding: 6px 0;
+}
+
+.contact-details a {
+    color: black;
+    text-decoration: none;
+}
+
+.address h4 {
+    margin: 4vw 2vw;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.address p {
+    margin: 0vw 2vw;
+}
