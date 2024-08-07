@@ -73,3 +73,28 @@
 #developer-contact a {
   color: #fff;
 }
+
+@media only screen and (max-width: 1050px) {
+  footer {
+    text-align: center;
+  }
+  .footer-main {
+    display: block;
+    padding: 20px 28px;
+  }
+
+  .footer-misc {
+    display: block;
+    gap: 20px;
+    padding: 20px 28px;
+  }
+
+  .contact {
+    padding: 20px 0px;
+  }
+
+  #developer-contact,
+  #logo-footer {
+    justify-content: center;
+  }
+}
