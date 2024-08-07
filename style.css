@@ -1,17 +1,17 @@
-@import url(./css/navbar.css);
+@import url(./common/header/header.css);
 @import url(./css/hero.css);
-@import url(./css/footer.css);
+@import url(./common/footer/footer.css);
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "DM Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
 }
 
 html,
 body {
-    height: 100%;
-    width: 100%;
-    overflow-x: hidden !important;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden !important;
 }
