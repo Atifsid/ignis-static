@@ -95,4 +95,16 @@
   #developer-contact {
     justify-content: center;
   }
+
+  #logo-footer {
+    display: inline;
+  }
+
+  #logo-footer img {
+    height: 120px;
+  }
+
+  #logo-footer h3 {
+    font-size: 20px;
+  }
 }
