@@ -54,9 +54,10 @@
     font-size: 14px;
     font-weight: 600;
     border-radius: 2%;
+    transition: 0.5s;
 }
 
-/* .hero-button:hover {
+.hero-button:hover {
     background-color: #dc2626;
     color: #ffffff;
-} */
+}
