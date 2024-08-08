@@ -31,10 +31,14 @@ mm.add("(max-width: 750px)", () => {
 
 navbarTl.pause();
 
+const hideNavMenu = () => {
+  navbarTl.reverse();
+}
+
 menuBtn.addEventListener("click", () => {
   navbarTl.play();
 });
 
 crossBtn.addEventListener("click", () => {
-  navbarTl.reverse();
+  hideNavMenu();
 });

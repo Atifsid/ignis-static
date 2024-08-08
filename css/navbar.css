@@ -74,10 +74,12 @@
   padding: 150px 50px;
 }
 
-#navbar-full h4 {
+#navbar-full a {
   font-size: 50px;
   font-weight: 500;
   margin-bottom: 10px;
+  text-decoration: none;
+  color: black;
 }
 
 #navbar-full i {
