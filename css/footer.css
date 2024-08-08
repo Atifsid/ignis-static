@@ -2,13 +2,15 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 2vw 7vw;
+  padding: 1.5vw 21vw 1.5vw 19vw;
+  background-color: rgba(0, 0, 0, 0.233);
 }
 
 .address h3,
 .contact h3 {
   font-size: 20px;
   padding: 0px 0px 16px 0px;
+  font-weight: 800;
 }
 
 .contact ul li i {
@@ -26,10 +28,6 @@
   font-size: 18px;
 }
 
-.contact ul {
-  list-style-type: none;
-}
-
 .contact ul li a {
   text-decoration: none;
   color: black;
@@ -42,17 +40,17 @@
 #logo-footer {
   display: flex;
   align-items: center;
-  gap: 20px;
 }
 
 #logo-footer img {
-  height: 100px;
-  width: 100px;
+  height: 150px;
+  width: 150px;
   object-fit: cover;
 }
 
 #logo-footer h3 {
   font-size: 26px;
+  margin-bottom: 10px;
 }
 
 .footer-misc {
@@ -60,7 +58,7 @@
   align-items: center;
   justify-content: space-evenly;
   padding: 18px 0;
-  background-color: rgba(0, 0, 0, 0.479);
+  background-color: rgba(0, 0, 0, 0.541);
   color: #fff;
 }
 
@@ -77,15 +75,16 @@
 @media only screen and (max-width: 1050px) {
   footer {
     text-align: center;
+    padding-right: 50px;
   }
+
   .footer-main {
     display: block;
-    padding: 20px 28px;
+    padding: 15px 28px;
   }
 
   .footer-misc {
     display: block;
-    gap: 20px;
     padding: 20px 28px;
   }
 
@@ -93,8 +92,7 @@
     padding: 20px 0px;
   }
 
-  #developer-contact,
-  #logo-footer {
+  #developer-contact {
     justify-content: center;
   }
 }

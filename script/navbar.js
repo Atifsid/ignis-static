@@ -1,26 +1,26 @@
 const setActiveLink = (event) => {
-  const navLinks = document.querySelectorAll('.nav-links a');
+  const navLinks = document.querySelectorAll(".nav-links a");
   if (!event) {
     navLinks.forEach((link) => {
-      if (link.id === 'home-link') {
-        link.classList.add('link-active');
+      if (link.id === "home-link") {
+        link.classList.add("link-active");
       } else {
-        link.classList.remove('link-active');
+        link.classList.remove("link-active");
       }
-    })
+    });
     return;
   }
   const id = event.target.id;
   navLinks.forEach((link) => {
     if (link.id === id) {
-      link.classList.add('link-active');
+      link.classList.add("link-active");
     } else {
-      link.classList.remove('link-active');
+      link.classList.remove("link-active");
     }
   });
-}
+};
 
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener("DOMContentLoaded", () => {
   setActiveLink();
 });
 
@@ -47,7 +47,7 @@ gsap.from(".hero .hero-content", {
   stagger: 1,
 });
 
-mm.add("(max-width: 750px)", () => {
+mm.add("(max-width: 1000px)", () => {
   navbarTl.to("#navbar-full", {
     right: 1,
     duration: 0.5,
@@ -59,7 +59,7 @@ navbarTl.pause();
 
 const hideNavMenu = () => {
   navbarTl.reverse();
-}
+};
 
 menuBtn.addEventListener("click", () => {
   navbarTl.play();

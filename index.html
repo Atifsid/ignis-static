@@ -25,9 +25,9 @@
   </head>
 
   <body>
-    <div id="loading-overlay">
+    <!-- <div id="loading-overlay">
       <div class="loader"></div>
-    </div>
+    </div> -->
     <div class="root">
       <!-- NAVBAR SECTION -->
 
@@ -65,10 +65,12 @@
       </section>
       <!-- Navbar menu for smaller screens-->
       <section id="navbar-full">
-        <a href="/">Home</a>
-        <a href="#services" onclick="hideNavMenu()">Services</a>
-        <a href="#about-us" onclick="hideNavMenu()">About Us</a>
-        <a href="#contact-us" onclick="hideNavMenu()">Contact Us</a>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="#services" onclick="hideNavMenu()">Services</a></li>
+          <li><a href="#about-us" onclick="hideNavMenu()">About Us</a></li>
+          <li><a href="#contact-us" onclick="hideNavMenu()">Contact Us</a></li>
+        </ul>
 
         <i class="ri-close-circle-fill"></i>
       </section>
@@ -85,9 +87,34 @@
         </div>
       </section>
 
+      <!-- Service section -->
+      <section id="services">
+        <div class="center-content">
+          <div>
+            <h2 class="h2-heading center-text">
+              <span style="color: #dc2626">Services</span> that makes us
+              different!
+            </h2>
+            <div class="center-content items-center">
+              <div class="service-text text-align-right">
+                <h4>Fire Fighting System</h4>
+                <h4>Fire Suppression System</h4>
+                <h4>Fire Alarm System</h4>
+              </div>
+              <img src="/assets/extinguisher.png" alt="Fire Extinguisher" />
+              <div class="service-text text-align-left">
+                <h4>Refilling & Hydro Test Service</h4>
+                <h4>Annual Maintenance Service</h4>
+                <h4>Fire Training & Audit</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <!-- Footer section -->
-      <footer id="about-us">
-        <div class="footer-main">
+      <div id="about-us">
+        <div class="footer-main center-text">
           <div class="address">
             <h3>Address</h3>
             <p>
@@ -119,19 +146,17 @@
           </div>
 
           <div id="logo-footer">
-            <img src="./assets/favicon.jpg" alt="Ignis Electrical" />
+            <img src="/assets/logo.svg" alt="Ignis Electrical" />
             <h3>Ignis & Electrical <br />Protection LLP</h3>
           </div>
         </div>
+      </div>
 
-        <div class="footer-misc">
-          <p>© Copyrights 2024. All rights reserved.</p>
-          <div id="developer-contact">
-            <p>Design & developed by</p>
-            <a href="https://github.com/Atifsid" target="_blank"
-              >Atif Siddiqui</a
-            >
-          </div>
+      <footer class="footer-misc">
+        <p class="center-text">© Copyrights 2024. All rights reserved.</p>
+        <div id="developer-contact">
+          <p>Design & developed by</p>
+          <a href="https://github.com/Atifsid" target="_blank">Atif Siddiqui</a>
         </div>
       </footer>
     </div>

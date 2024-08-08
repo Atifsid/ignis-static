@@ -71,7 +71,11 @@
   object-fit: cover;
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 1000px) {
+  .navbar {
+    padding: 1vw 5vw 1vw 5vw;
+  }
+
   div.nav-links {
     display: none;
   }
