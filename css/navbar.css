@@ -31,6 +31,12 @@
   color: black;
 }
 
+.nav-links .link-active {
+  text-decoration: underline red;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 2px;
+}
+
 .logo {
   display: flex;
   align-items: center;

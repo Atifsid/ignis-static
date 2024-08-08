@@ -1,3 +1,29 @@
+const setActiveLink = (event) => {
+  const navLinks = document.querySelectorAll('.nav-links a');
+  if (!event) {
+    navLinks.forEach((link) => {
+      if (link.id === 'home-link') {
+        link.classList.add('link-active');
+      } else {
+        link.classList.remove('link-active');
+      }
+    })
+    return;
+  }
+  const id = event.target.id;
+  navLinks.forEach((link) => {
+    if (link.id === id) {
+      link.classList.add('link-active');
+    } else {
+      link.classList.remove('link-active');
+    }
+  });
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  setActiveLink();
+});
+
 let mm = gsap.matchMedia();
 let navbarTl = gsap.timeline();
 const menuBtn = document.querySelector(".navbar span i");
