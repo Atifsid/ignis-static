@@ -6,6 +6,10 @@
   background-color: rgba(0, 0, 0, 0.233);
 }
 
+.contact {
+  padding: 0 30px;
+}
+
 .address h3,
 .contact h3 {
   font-size: 20px;
@@ -49,7 +53,7 @@
 }
 
 #logo-footer h3 {
-  font-size: 26px;
+  font-size: 20px;
   margin-bottom: 10px;
 }
 
