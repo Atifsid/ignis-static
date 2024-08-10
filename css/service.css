@@ -1,5 +1,4 @@
 #services img {
-  max-height: 380px;
   max-width: 400px;
   object-fit: cover;
   border-radius: 2%;
@@ -59,7 +58,6 @@
 
   #services img {
     max-width: 270px;
-    max-height: 300px;
   }
 
   #services .services-container .center-content {
