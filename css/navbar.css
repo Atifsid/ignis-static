@@ -32,26 +32,9 @@
 }
 
 .nav-links .link-active {
-  text-decoration: underline red;
+  text-decoration: underline #dc2626;
   text-underline-offset: 6px;
   text-decoration-thickness: 2px;
-}
-
-.nav-links .un {
-  display: inline-block;
-}
-
-.nav-links .un:after {
-  content: "";
-  width: 0px;
-  height: 2px;
-  display: block;
-  background: red;
-  transition: 300ms;
-}
-
-.un:hover:after {
-  width: 100%;
 }
 
 .logo {

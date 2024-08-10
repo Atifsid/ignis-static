@@ -74,3 +74,20 @@ body {
 ul {
   list-style-type: none;
 }
+
+.un {
+  display: inline-block;
+}
+
+.un:after {
+  content: "";
+  width: 0px;
+  height: 2px;
+  display: block;
+  background: #dc2626;
+  transition: 300ms;
+}
+
+.un:hover:after {
+  width: 100%;
+}
