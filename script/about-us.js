@@ -4,8 +4,8 @@ gsap.from("#about-us", {
   scrollTrigger: {
     trigger: "#about-us",
     scroller: "body",
-    markers: false,
-    start: "bottom 80%",
+    markers: true,
+    start: "top 90%",
   },
 });
 
@@ -17,7 +17,7 @@ gsap.from("#about-us img", {
     trigger: "#about-us",
     scroller: "body",
     markers: false,
-    start: "bottom 80%",
+    start: "top 90%",
   },
 });
 
@@ -29,6 +29,6 @@ gsap.from("#about-us p", {
     trigger: "#about-us",
     scroller: "body",
     markers: false,
-    start: "bottom 80%",
+    start: "top 90%",
   },
 });
