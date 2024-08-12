@@ -1,3 +1,5 @@
+gsap.registerPlugin(ScrollToPlugin, ScrollTrigger);
+
 gsap.to("#loading-overlay", {
   y: "100%",
   delay: 2,

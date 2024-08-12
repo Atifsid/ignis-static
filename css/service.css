@@ -34,7 +34,7 @@
 }
 
 .view-more {
-  font-size: 18px;
+  font-size: 16px;
   cursor: pointer;
   font-weight: 700;
 }
@@ -83,5 +83,9 @@
 
   #services .service-content {
     padding-left: 10px;
+  }
+
+  .view-more {
+    font-size: 14px;
   }
 }
