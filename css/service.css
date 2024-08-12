@@ -8,12 +8,6 @@
   padding-top: 20px;
 }
 
-#services {
-  margin: 1.5vw 18vw 1.5vw 17vw;
-  background-color: rgba(0, 0, 0, 0.219);
-  border-radius: 8px;
-}
-
 #services .service-content {
   padding-left: 20px;
 }
@@ -48,10 +42,6 @@
 }
 
 @media only screen and (max-width: 1000px) {
-  #services {
-    margin: 5vw 5vw 5vw 5vw;
-  }
-
   #services .h2-heading {
     font-size: 23px;
   }

@@ -40,8 +40,8 @@
       <span><i class="ri-menu-line menu"></i></span>
       <div class="nav-links">
         <a href="/" id="home-link" class="un">Home</a>
-        <a href="#services" id="service-link" class="un" onclick="setActiveLink(event)">Services</a>
         <a href="#about-us" id="about-link" class="un" onclick="setActiveLink(event)">About Us</a>
+        <a href="#services" id="service-link" class="un" onclick="setActiveLink(event)">Services</a>
         <a href="#contact-us" id="contact-link" class="un" onclick="setActiveLink(event)">Contact Us</a>
       </div>
     </section>
@@ -49,8 +49,8 @@
     <section id="navbar-full">
       <ul>
         <li><a href="/">Home</a></li>
-        <li><a href="#services" onclick="hideNavMenu()">Services</a></li>
         <li><a href="#about-us" onclick="hideNavMenu()">About Us</a></li>
+        <li><a href="#services" onclick="hideNavMenu()">Services</a></li>
         <li><a href="#contact-us" onclick="hideNavMenu()">Contact Us</a></li>
       </ul>
 
@@ -69,8 +69,21 @@
       </div>
     </section>
 
+    <!-- About Us section -->
+     <section id="about-us" class="common-card">
+      <div class="about-us-container">
+          <div class="center-content items-center">
+            <img src="/assets/logo.svg" alt="Ignis Electrical" />
+            <p><span class="ignis-name">Ignis & Electrical Protection LLP</span> is a leading fire & electrical protection designing consultancy,
+               safety auditor and Technologies and service provider. We operate nationally through our offices in New Delhi.
+                We design, develop, conduct safety audit & training, Project Management consultancy support, Turnkey projects execution, 
+                Fire system Annual Management.</p>
+          </div>
+      </div>
+     </section>
+
     <!-- Service section -->
-    <section id="services">
+    <section id="services" class="common-card">
       <h2 class="h2-heading center-text">
         <span style="color: #dc2626">Services</span> that makes us
         different!
@@ -208,6 +221,7 @@
   <script src="/script/navbar.js"></script>
   <script src="/script.js"></script>
   <script src="/script/service.js"></script>
+  <script src="/script/about-us.js"></script>
 </body>
 
 </html>

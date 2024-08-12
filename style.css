@@ -2,6 +2,7 @@
 @import url(/css/hero.css);
 @import url(/css/footer.css);
 @import url(/css/service.css);
+@import url(/css/about-us.css);
 
 * {
   margin: 0;
@@ -60,11 +61,16 @@ body {
   unicode-bidi: isolate;
 }
 
-.common-spaceing {
-  margin-block-start: 0.83em;
-  margin-block-end: 0.83em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
+.common-card {
+  background-color: rgba(0, 0, 0, 0.219);
+  border-radius: 8px;
+  margin: 1.5vw 18vw 1.5vw 17vw;
+}
+
+@media only screen and (max-width: 1000px) {
+  .common-card {
+    margin: 5vw 5vw 5vw 5vw;
+  }
 }
 
 .center-text {
