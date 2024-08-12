@@ -4,7 +4,7 @@ gsap.from("#about-us", {
   scrollTrigger: {
     trigger: "#about-us",
     scroller: "body",
-    markers: true,
+    markers: false,
     start: "top 90%",
   },
 });
