@@ -1,7 +1,7 @@
 .hero {
   position: relative;
   width: 100vw;
-  height: calc(100vh - 52px);
+  height: calc(100vh - 72px);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,7 +9,7 @@
 
 @media only screen and (max-width: 1000px) {
   .hero {
-    height: calc(100vh - 61px);
+    height: calc(100vh - 69.5px);
   }
 }
 
